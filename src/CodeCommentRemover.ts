@@ -7,7 +7,7 @@ enum CommentState {
   None
 }
 
-export class JSCommentRemover implements ICodeCommentRemover {
+export class CodeCommentRemover implements ICodeCommentRemover {
   constructor(private readonly codeWriter: ICodeWriter) {}
   
   private state = CommentState.None;

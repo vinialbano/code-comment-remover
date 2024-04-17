@@ -2,13 +2,18 @@
   "name": "code-comment-remover",
   "version": "1.0.0",
   "description": "Removes comments from code",
-  "main": "index.js",
+  "keywords": ["comment", "remover", "code", "remove", "comments"],
+  "homepage": "https://github.com/vinialbano/code-comment-remover#readme",
+  "license": "MIT",
+  "author": "Vinicius Albano <vinialbano@gmail.com> (https://vinialbano.com/)",
+  "main": "src/CodeCommentRemover.ts",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinialbano/code-comment-remover.git"
+  },
   "devDependencies": {
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.4.14",

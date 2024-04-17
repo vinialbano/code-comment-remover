@@ -1,13 +1,13 @@
-import { JSCommentRemover } from "./CodeCommentRemover";
+import { CodeCommentRemover } from "./CodeCommentRemover";
 import { ICodeWriter } from "./ICodeWriter";
 
 describe('CodeCommentRemover', () => {
   let mockCodeWriter: jest.Mocked<ICodeWriter>;
-  let codeRemover: JSCommentRemover;
+  let codeRemover: CodeCommentRemover;
 
   beforeEach(() => {
     mockCodeWriter = { write: jest.fn() };
-    codeRemover = new JSCommentRemover(mockCodeWriter);
+    codeRemover = new CodeCommentRemover(mockCodeWriter);
   });
 
   afterEach(() => {
